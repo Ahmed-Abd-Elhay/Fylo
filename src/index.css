@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .container {
+        @apply mx-auto
+    }
+
+    .center-elements {
+        @apply flex items-center justify-center
+    }
+
+    .behavior {
+        @apply transition-all duration-200
+    }
+
+    .botton-effect {
+        @apply bg-[#42b0d1] hover:bg-[#8cdae4] cursor-pointer m-[30px_auto]
+    }
+
+    .style-grid-system {
+        @apply grid grid-rows-1 grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-[50px]
+    }
+
+    .response-width {
+        @apply w-[95%] sm:w-[90%] md:w-[90%] lg:w-[75%] 2xl:w-[65%] !important
+    }
+
+    .box {
+        @apply w-fit bg-[#212939] p-[30px] rounded-[5px]
+    }
+
+    .icon {
+        @apply w-[18px] h-[18px] object-contain
+    }
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #181e2a;
+}
