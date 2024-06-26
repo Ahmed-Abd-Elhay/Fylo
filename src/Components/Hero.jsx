@@ -1,4 +1,5 @@
-import heroImage from "../assets/images/bg-curvy-desktop.svg";
+import heroImage from "../assets/images/illustration-intro.png";
+import coverImage from "../assets/images/bg-curvy-desktop.svg";
 
 function Hero() {
     return (
@@ -8,7 +9,7 @@ function Hero() {
             >
 
                 <div className="w-[95%] sm:w-[80%] md:w-[70%] lg:w-[55%] xl:w-[40%] mt-[50px] sm:mt-0 behavior">
-                    <img src="/src/assets/images/illustration-intro.png" alt="Landing Image" />
+                    <img src={heroImage} alt="Landing Image" />
                 </div>
 
                 <div className="text-white text-center">
@@ -30,7 +31,7 @@ function Hero() {
             </div>
             <div className=" w-full h-[200px]">
                 <img className=" w-full h-full"
-                    src={heroImage} alt="" />
+                    src={coverImage} alt="" />
             </div>
         </div>
     )
