@@ -1,5 +1,11 @@
 import { Link } from "react-scroll";
 import { FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
+import logo_image from "../assets/images/logo.svg";
+import locationIcon from "../assets/images/icon-location.svg";
+import phone_icon from "../assets/images/icon-phone.svg";
+import email_icon from "../assets/images/icon-email.svg";
+
+
 
 function Footer() {
     return (
@@ -12,14 +18,14 @@ function Footer() {
                     spy={true}
                     duration={500}
                 >
-                    <img className=" cursor-pointer w-[175px] h-[66px] object-contain" src="/src/assets/images/logo.svg" alt="" />
+                    <img className=" cursor-pointer w-[175px] h-[66px] object-contain" src={logo_image} alt="" />
                 </Link>
 
                 <div className="container behavior flex-col center-elements flex-wrap items-start
                 mt-[50px] gap-[50px] md:flex-row md:justify-between">
 
                     <div className="w-[340px] max-w-full flex gap-[15px] items-start">
-                        <img className="icon" src="/src/assets/images/icon-location.svg" alt="image location" />
+                        <img className="icon" src={locationIcon} alt="image location" />
                         <p className="font-normal text-sm tracking-[0.8] ">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Labore, consequatur vero fugit, ipsam, cupiditate tempore reprehenderit
@@ -30,11 +36,11 @@ function Footer() {
                     {/* Contact Info */}
                     <div className="flex items-start gap-[20px] flex-col">
                         <div className="center-elements gap-[20px]">
-                            <img className="icon" src="/src/assets/images/icon-phone.svg" alt="phone" />
+                            <img className="icon" src={phone_icon} alt="phone" />
                             <p>+20 01234567899</p>
                         </div>
                         <div className="center-elements gap-[20px]">
-                            <img className="icon" src="/src/assets/images/icon-email.svg" alt="email" />
+                            <img className="icon" src={email_icon} alt="email" />
                             <p>example@fylo.com</p>
                         </div>
                     </div>

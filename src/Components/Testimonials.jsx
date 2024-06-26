@@ -1,18 +1,21 @@
 import { useState } from "react";
+import characterImage_1 from "../assets/images/profile-1.jpg";
+import characterImage_2 from "../assets/images/profile-2.jpg";
+import characterImage_3 from "../assets/images/profile-3.jpg";
 
 function Testimonials() {
 
     const [info, setInfo] = useState([
         {
-            image: "/src/assets/images/profile-1.jpg",
+            image: characterImage_1,
             name: "Ahmed",
         },
         {
-            image: "/src/assets/images/profile-2.jpg",
+            image: characterImage_2,
             name: "Mohamed",
         },
         {
-            image: "/src/assets/images/profile-3.jpg",
+            image: characterImage_3,
             name: "Eman",
         },
     ])

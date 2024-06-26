@@ -1,25 +1,30 @@
 import { useState } from "react";
+import security_icon from "../assets/images/icon-security.svg";
+import collab_icon from "../assets/images/icon-collaboration.svg";
+import file_icon from "../assets/images/icon-any-file.svg";
+import where_icon from "../assets/images/icon-access-anywhere.svg";
+
 
 function Features() {
 
     const [itmes, setItems] = useState([
         {
-            image: "/src/assets/images/icon-security.svg",
+            image: security_icon,
             title: "Security you can trust",
             description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum porro eos labore consectetur id ipsam,"
         },
         {
-            image: "/src/assets/images/icon-collaboration.svg",
+            image: collab_icon,
             title: "Real-time Collaboration",
             description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum porro eos labore consectetur id ipsam,"
         },
         {
-            image: "/src/assets/images/icon-any-file.svg",
+            image: file_icon,
             title: "Store any type of file",
             description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum porro eos labore consectetur id ipsam,"
         },
         {
-            image: "/src/assets/images/icon-access-anywhere.svg",
+            image: where_icon,
             title: "Access your files from anywhere",
             description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum porro eos labore consectetur id ipsam,"
         },

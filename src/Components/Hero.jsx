@@ -1,3 +1,4 @@
+import heroImage from "../assets/images/bg-curvy-desktop.svg";
 
 function Hero() {
     return (
@@ -29,7 +30,7 @@ function Hero() {
             </div>
             <div className=" w-full h-[200px]">
                 <img className=" w-full h-full"
-                    src="/src/assets/images/bg-curvy-desktop.svg" alt="" />
+                    src={heroImage} alt="" />
             </div>
         </div>
     )

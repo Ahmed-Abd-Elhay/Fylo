@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-scroll";
+import logo_image from "../assets/images/logo.svg";
 
 function Header() {
 
@@ -41,7 +42,7 @@ function Header() {
                     spy={true}
                     duration={500}
                 >
-                    <img className=" cursor-pointer" src="/src/assets/images/logo.svg" alt="" />
+                    <img className=" cursor-pointer" src={logo_image} alt="" />
                 </Link>
 
                 <nav>

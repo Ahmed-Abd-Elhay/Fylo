@@ -1,10 +1,13 @@
+import illustrationImage from "../assets/images/illustration-stay-productive.png";
+import arrowImage from "../assets/images/icon-arrow.svg";
+
 
 function StayProductive() {
     return (
         <section className="m-[80px_0]">
             <div className="container w-[95%] md:w-[80%] md:grid-rows-1 style-grid-system  place-items-center">
                 <div className="w-[90%] sm:w-[95%] md:w-[100%] mx-auto behavior">
-                    <img src="/src/assets/images/illustration-stay-productive.png" alt="" />
+                    <img src={illustrationImage} alt="" />
                 </div>
 
                 <div className="text-white w-[95%] md:w-[100%]">
@@ -33,7 +36,7 @@ function StayProductive() {
                     >
                         See how Fylo works
                         <img
-                            src="/src/assets/images/icon-arrow.svg"
+                            src={arrowImage}
                             alt="arrow-image"
                             className="w-[20px] object-contain animate-moveToRight z-[-1]" />
                     </a>
